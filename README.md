@@ -3,7 +3,7 @@
 ![MATLAB](https://img.shields.io/badge/MATLAB-Data_Analysis-blue)
 
 ## Descrizione del Progetto
-Questo progetto unisce le nozioni di elaborazione dei segnali multimediali all'ambito della Digital Forensics. L'obiettivo principale è lo sviluppo di un algoritmo proprietario in ambiente MATLAB (modalità *white-box*) capace di rilevare manipolazioni digitali (fotomontaggi) sfruttando le incongruenze negli artefatti di compressione JPEG. 
+Questo progetto unisce le nozioni del Corso di Multimedia, affrontato durante l'anno accademico 2025/2026, all'ambito della Digital Forensics. L'obiettivo principale è lo sviluppo di un algoritmo proprietario in ambiente MATLAB (modalità *white-box*) capace di rilevare manipolazioni digitali (fotomontaggi) sfruttando le incongruenze negli artefatti di compressione JPEG. 
 
 Invece di affidarsi a software commerciali a scatola chiusa, questo tool analizza il residuo di quantizzazione spaziale, l'analisi del Rapporto Segnale/Rumore di Quantizzazione (SQNR) in finestre locali, e l'ispezione in frequenza mediante Trasformata Discreta del Coseno (DCT). Il risultato è una heatmap energetica che isola le regioni dell'immagine con una "storia di compressione" differente.
 
