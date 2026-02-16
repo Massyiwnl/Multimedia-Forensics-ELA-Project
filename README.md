@@ -37,7 +37,7 @@ L'algoritmo si articola in sei fasi automatizzate:
 Per eseguire l'analisi, avviare lo script principale su MATLAB avendo cura di posizionare un'immagine di test nella cartella `dataset/`.
 L'esecuzione produce un **Report Forense Automatico** strutturato in pannelli:
 
-![Dashboard Forense](dataset)
+![Dashboard Forense](output/MATLAB_result.png)
 *(Esempio: L'elevato valore di energia in rosso evidenzia matematicamente la presenza dell'elemento estraneo incollato)*
 
 * **Pannello 3 (ELA Raw):** Visualizzazione dell'amplificazione lineare dell'errore (fattore x40).
